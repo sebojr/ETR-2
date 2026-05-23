@@ -15,7 +15,8 @@ library(syuzhet)
 # =========================================================
 # 1. LOAD DATA
 # =========================================================
-
+setwd("D:/OneDrive/Documents/ETR 2")
+getwd()
 df <- read.csv("Translated_RobinPadilla_Dataset.csv")
 
 glimpse(df)
